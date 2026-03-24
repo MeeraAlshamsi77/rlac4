@@ -1,8 +1,6 @@
-title: Reading Like a Computer
-email:
+title: Meera’s RLAC Diary 🎀
 description: >-
-  My little corner of the internet for RLAC at NYU Abu Dhabi, where I collect
-  my assignments, reflections, experiments, and projects from the semester.
+  A collection of my work, thoughts, and experiments from Reading Like a Computer at NYU Abu Dhabi.
 github_username: mrh9663-del
 minimal_mistakes_skin: air
 search: true
@@ -11,58 +9,15 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
 permalink: /:categories/:title/
-paginate: 5
-paginate_path: /page:num/
 timezone: Asia/Dubai
 
 include:
   - _pages
 
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-
 author:
   name: "Meera Alshamsi"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "My RLAC archive of reading, coding, experimenting, and figuring things out along the way."
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mrh9663-del"
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mrh9663-del"
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: false
-
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
+  bio: "just me, reading like a computer and trying to make sense of it 💌"
 
 tag_archive:
   type: liquid
