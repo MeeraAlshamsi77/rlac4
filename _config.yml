@@ -18,7 +18,3 @@ author:
   name: "Meera Alshamsi"
   avatar: "/assets/images/bio-photo.jpg"
   bio: "just me, reading like a computer and trying to make sense of it 💌"
-
-tag_archive:
-  type: liquid
-  path: /tags/
